@@ -4,7 +4,7 @@
 1) Put `php_wapi.dll` in `php\ext`
 2) In `php.ini` add line: `extension=php_wapi.dll`
 ## VS Project
-You must have the Visual Studio 2017 installed (mine was Community version, which is free).
+You must have the Visual Studio 2017 (mine was Community version, which is free) and Windows SDK (mine was 10) installed.
 1) Download [`php-7.1.3-src.zip`](http://windows.php.net/downloads/releases/php-7.1.3-src.zip) and unzip it to `C:\php-src` (or you can change project Properties and select your folder in Properties -> C/C++ -> General).
 2) Change to `Release|x64` and Build.
 3) The output DLL will be saved to `C:\php\ext`
