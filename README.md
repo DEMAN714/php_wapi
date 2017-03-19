@@ -20,3 +20,4 @@ wapi_get_key_state(VK_A);
 wapi_dialog('open');
 wapi_dialog('save');
 ```
+#### Thanks to [gerbernhardt](https://github.com/gerbernhardt) for this extension. You have to check [his repo](https://github.com/gerbernhardt/php_wapi) for code updates.
