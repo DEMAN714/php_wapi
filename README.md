@@ -4,8 +4,10 @@
 1) Put `php_wapi.dll` in `php\ext`
 2) In `php.ini` add line: `extension=php_wapi.dll`
 ## VS Project
-You will need to download [`php-7.1.3-src.zip`](http://windows.php.net/downloads/releases/php-7.1.3-src.zip) and unzip it to `C:\php-src` (or you can change project Properties and select your folder in Properties -> C/C++ -> General).<br>
-The output DLL will be saved to `C:\php\ext`
+You must have the Visual Studio 2017 installed (mine was Community version, which is free).
+1) Download [`php-7.1.3-src.zip`](http://windows.php.net/downloads/releases/php-7.1.3-src.zip) and unzip it to `C:\php-src` (or you can change project Properties and select your folder in Properties -> C/C++ -> General).
+2) Build.
+3) The output DLL will be saved to `C:\php\ext`
 ### PHP commands should be like:
 ```
 wapi_screenshot('image.bmp',100,100,50,50); //path, left, top, width, height
