@@ -6,7 +6,7 @@
 ## VS Project
 You must have the Visual Studio 2017 installed (mine was Community version, which is free).
 1) Download [`php-7.1.3-src.zip`](http://windows.php.net/downloads/releases/php-7.1.3-src.zip) and unzip it to `C:\php-src` (or you can change project Properties and select your folder in Properties -> C/C++ -> General).
-2) Build.
+2) Change to `Release|x64` and Build.
 3) The output DLL will be saved to `C:\php\ext`
 ### PHP commands should be like:
 ```
