@@ -24,7 +24,7 @@ buildconf
 configure --disable-all --enable-cli
 ```
 8) Go to `php7dev\vc14\x64\php-7.1*\main` and open `config.w32.h` with notepad
-9) Change all `VC15` to `VC14` and `Visual C++ 2017` to `Visual C++ 2015`
+9) Change `MSVC15 (Visual C++ 2017)` to `MSVC14 (Visual C++ 2015)` and `VC15` to `VC14`
 ## VS Project
 1) Copy folder `php7dev\vc14\x64\php-7.1*` to `C:\` and rename to `php-src` (or you can change project Properties and select your folder in Properties -> C/C++ -> General).
 2) Change to `Release|x64` and Build.
