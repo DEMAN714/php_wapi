@@ -1,9 +1,10 @@
 # Windows API in PHP
 #### Project made for VS 2017. DLL made for PHP 7.1.3 x64 VC14
-You must have the Visual Studio 2017 (mine was Community version, which is free) and Windows SDK (mine was 10) installed.
 ## How to use DLL
 1) Put `php_wapi.dll` in `php\ext`
 2) In `php.ini` add line: `extension=php_wapi.dll`
+# Make DLL
+You must have the Visual Studio 2017 (mine was Community version, which is free) and Windows SDK (mine was 10) installed.
 ## PHP pre-build
 
 1) Download [PHP SDK TOOLS](http://windows.php.net/downloads/php-sdk/php-sdk-binary-tools-20110915.zip)
